@@ -1,0 +1,628 @@
+[
+  {
+    "name": "Startup India Seed Fund Scheme (SISFS)",
+    "category": "Government Grant",
+    "geography": "India",
+    "administered_by": "DPIIT, Ministry of Commerce and Industry",
+    "stage": ["idea", "prototype", "early revenue"],
+    "domain": "Sector-agnostic (preference to social impact, healthcare, agritech, biotech, fintech, education, mobility)",
+    "location": "Pan-India",
+    "funding_amount": "Up to ₹20 lakh grant for proof-of-concept/prototype; up to ₹50 lakh debt/convertible for market entry",
+    "funding_type": "Government Grant — non-dilutive, routed through approved incubators",
+    "eligibility": [
+      "DPIIT-recognized startup",
+      "Incorporated not more than 2 years ago at time of application",
+      "Indian promoter shareholding above 51%",
+      "Not received more than ₹10 lakh in prior government funding"
+    ],
+    "deadline": "Rolling — ongoing via incubator partners",
+    "required_documents": [
+      "DPIIT recognition certificate",
+      "Pitch deck (problem, solution, market size, business model)",
+      "Basic financial projections",
+      "Founder profile and incorporation documents"
+    ],
+    "application_process": "Apply via seedfund.startupindia.gov.in to up to 3 preferred incubators",
+    "source_url": "https://seedfund.startupindia.gov.in/"
+  },
+  {
+    "name": "BIRAC Biotechnology Ignition Grant (BIG)",
+    "category": "Government Grant",
+    "geography": "India",
+    "administered_by": "Biotechnology Industry Research Assistance Council (BIRAC), DBT",
+    "stage": ["idea", "prototype"],
+    "domain": "Biotechnology, life sciences, healthcare, agri-biotech, industrial biotech",
+    "location": "Pan-India",
+    "funding_amount": "Up to ₹50 lakh",
+    "funding_type": "Government Grant — non-dilutive, milestone-based disbursement",
+    "eligibility": [
+      "Indian startup or individual entrepreneur",
+      "Novel product or technology innovation in biotech or life sciences",
+      "Not a purely software or IT product",
+      "Team must include someone with relevant scientific background"
+    ],
+    "deadline": "Rolling rounds — check birac.nic.in for current call",
+    "required_documents": [
+      "Technical proposal (10-15 pages)",
+      "Budget breakdown",
+      "CV of key team members",
+      "Incorporation and registration documents"
+    ],
+    "application_process": "Submit application via birac.nic.in during open call windows",
+    "source_url": "https://birac.nic.in/webcontent/1463_BIG_scheme.pdf"
+  },
+  {
+    "name": "NIDHI PRAYAS Programme",
+    "category": "Government Grant",
+    "geography": "India",
+    "administered_by": "National Science and Technology Entrepreneurship Development Board (NSTEDB), DST",
+    "stage": ["idea", "prototype"],
+    "domain": "Science and technology-based innovations — hardware, deep tech, science-driven products",
+    "location": "Pan-India via NIDHI PRAYAS centres",
+    "funding_amount": "Up to ₹10 lakh",
+    "funding_type": "Government Grant — non-dilutive, for proof-of-concept and prototyping",
+    "eligibility": [
+      "Indian citizen with a technology product or innovation concept",
+      "Should not have previously received NIDHI funding",
+      "DPIIT recognition preferred but not always mandatory",
+      "Science or engineering background in core innovation"
+    ],
+    "deadline": "Cohort-based — periodic calls at participating PRAYAS centres",
+    "required_documents": [
+      "Innovation concept note",
+      "Technical feasibility plan",
+      "Team profiles",
+      "Cost estimates for prototyping"
+    ],
+    "application_process": "Apply via dst.gov.in or nearest NIDHI PRAYAS centre",
+    "source_url": "https://nidhi.dst.gov.in/prayas"
+  },
+  {
+    "name": "iCreate (International Centre for Entrepreneurship and Technology)",
+    "category": "Government Grant + Incubation",
+    "geography": "India",
+    "administered_by": "Government of India and Government of Gujarat (autonomous body)",
+    "stage": ["idea", "prototype", "MVP"],
+    "domain": "Deep tech, manufacturing, IoT, AI and ML, defence, energy, agriculture",
+    "location": "Ahmedabad, Gujarat (with national reach programmes)",
+    "funding_amount": "Up to ₹25 lakh (varies by programme)",
+    "funding_type": "Government Grant + Incubation support — lab space, mentors, prototyping",
+    "eligibility": [
+      "Indian startup or individual innovator",
+      "Hardware, deep tech, or advanced manufacturing focus preferred",
+      "Must participate in residential or virtual incubation programme"
+    ],
+    "deadline": "Cohort-based — periodic open calls",
+    "required_documents": [
+      "Application form",
+      "Concept paper",
+      "Team profiles",
+      "Business plan or pitch deck"
+    ],
+    "application_process": "Apply via icreate.org.in during open cohort windows",
+    "source_url": "https://icreate.org.in"
+  },
+  {
+    "name": "Atal Innovation Mission (AIM) — Atal Incubation Centres",
+    "category": "Government Grant + Incubation",
+    "geography": "India",
+    "administered_by": "NITI Aayog, Government of India",
+    "stage": ["idea", "prototype", "early revenue"],
+    "domain": "Sector-agnostic, with focus on technology-driven startups aligned to national priorities",
+    "location": "Pan-India via AIC network",
+    "funding_amount": "Equity-free support via AIC incubators (AIC itself receives up to ₹10 crore grant)",
+    "funding_type": "Government Grant-in-aid to incubators who provide equity-free support to startups",
+    "eligibility": [
+      "Indian startup seeking incubation at an AIM-supported AIC",
+      "Innovative product or service concept",
+      "Willingness to go through structured incubation programme"
+    ],
+    "deadline": "Rolling — apply to individual AIC centres",
+    "required_documents": [
+      "Idea or product description",
+      "Team background",
+      "Market opportunity overview",
+      "Prototype or MVP evidence if available"
+    ],
+    "application_process": "Apply directly to individual AICs listed on aim.gov.in",
+    "source_url": "https://aim.gov.in"
+  },
+  {
+    "name": "Y Combinator (YC) Batch Programme",
+    "category": "Accelerator + Equity Investment",
+    "geography": "Global (HQ: San Francisco, USA)",
+    "administered_by": "Y Combinator",
+    "stage": ["idea", "prototype", "MVP", "early revenue"],
+    "domain": "Sector-agnostic — software, hardware, biotech, fintech, climate, AI, consumer, B2B SaaS",
+    "location": "Global applications accepted; programme held in San Francisco",
+    "funding_amount": "$500,000 for 7% equity (2024 deal: $125k uncapped SAFE + $375k MFN SAFE)",
+    "funding_type": "Equity investment + Accelerator — 3-month batch, mentorship, Demo Day, alumni network",
+    "eligibility": [
+      "Any startup at any stage globally",
+      "Typically 2-4 co-founders preferred",
+      "Working prototype or MVP strongly preferred",
+      "Founders must commit full-time during the programme",
+      "Non-US founders accepted and very common"
+    ],
+    "deadline": "Two batches per year (Winter and Summer) — apply at ycombinator.com/apply",
+    "required_documents": [
+      "Online application form — no formal documents required",
+      "Demo video (optional but strongly recommended)",
+      "Links to live product if available",
+      "Co-founder equity split description"
+    ],
+    "application_process": "Apply online at ycombinator.com/apply; shortlisted teams interviewed by YC partners; decisions within weeks",
+    "source_url": "https://www.ycombinator.com/apply"
+  },
+  {
+    "name": "Peak XV Partners (Sequoia India) Surge Accelerator",
+    "category": "VC + Accelerator",
+    "geography": "India and Southeast Asia",
+    "administered_by": "Peak XV Partners (formerly Sequoia Capital India)",
+    "stage": ["MVP", "early revenue", "growth"],
+    "domain": "Consumer internet, B2B SaaS, fintech, healthcare, edtech, deep tech",
+    "location": "India and Southeast Asia",
+    "funding_amount": "$1 million to $2 million per company (Surge cohort); follow-on up to $100 million+ from the main fund",
+    "funding_type": "Equity investment — seed via Surge cohort, Series A and beyond via Peak XV fund",
+    "eligibility": [
+      "Startup based in India or Southeast Asia",
+      "Product already in market — MVP or early revenue preferred",
+      "Scalable technology-led business model",
+      "Strong founding team with domain expertise"
+    ],
+    "deadline": "Twice yearly cohorts — check surge.sequoiacap.com for open applications",
+    "required_documents": [
+      "Pitch deck (problem, solution, traction, team, market)",
+      "Financial model (monthly actuals and 18-month projection)",
+      "Cap table",
+      "Customer or user traction evidence"
+    ],
+    "application_process": "Apply via surge.sequoiacap.com or pitch to Peak XV partners directly",
+    "source_url": "https://www.peakxv.com"
+  },
+  {
+    "name": "500 Global (formerly 500 Startups) Accelerator",
+    "category": "Accelerator + Equity Investment",
+    "geography": "Global (HQ: San Francisco, USA)",
+    "administered_by": "500 Global",
+    "stage": ["prototype", "MVP", "early revenue"],
+    "domain": "Sector-agnostic — strong track record in fintech, consumer, marketplace, healthcare, SaaS",
+    "location": "Global — programmes in US, Asia, MENA, LatAm, Africa",
+    "funding_amount": "$150,000 for 6% equity (standard deal; varies by programme)",
+    "funding_type": "Equity investment + 4-month accelerator — mentorship, network, Demo Day",
+    "eligibility": [
+      "Startup at prototype to early revenue stage",
+      "Product in the market or close to launch",
+      "At least one full-time founder",
+      "Global applications accepted"
+    ],
+    "deadline": "Rolling cohorts per region — check 500.co/accelerators for current open programmes",
+    "required_documents": [
+      "Online application form",
+      "Pitch deck",
+      "Demo or product screenshots",
+      "Key metrics: users, revenue, month-on-month growth"
+    ],
+    "application_process": "Apply via 500.co; shortlisted teams proceed to interviews; rolling admission for some programmes",
+    "source_url": "https://500.co/accelerators"
+  },
+  {
+    "name": "Techstars Accelerator Programme",
+    "category": "Accelerator + Equity Investment",
+    "geography": "Global (HQ: Boulder, Colorado, USA)",
+    "administered_by": "Techstars",
+    "stage": ["prototype", "MVP", "early revenue"],
+    "domain": "Sector-agnostic — vertical programmes in fintech, health, sustainability, smart city, media, sports",
+    "location": "Global — 50+ programmes across North America, Europe, Asia, Africa, LatAm",
+    "funding_amount": "$120,000 for 6% equity (standard; structure varies by programme)",
+    "funding_type": "Equity investment + 3-month accelerator — mentorship, network, Demo Day, access to $6B+ investor network",
+    "eligibility": [
+      "Pre-seed to seed stage startup",
+      "Any geography accepted for most programmes",
+      "Sector-specific programmes require relevant domain focus",
+      "Founders must relocate for duration of programme"
+    ],
+    "deadline": "Rolling cohorts — apply at techstars.com/apply; each programme has its own deadline",
+    "required_documents": [
+      "Online application — no formal documents at initial stage",
+      "Pitch deck",
+      "Brief demo or video walkthrough",
+      "Description of current traction"
+    ],
+    "application_process": "Apply at techstars.com/apply; multi-round interviews; decisions per cohort",
+    "source_url": "https://www.techstars.com/accelerators"
+  },
+  {
+    "name": "Antler Early-Stage VC",
+    "category": "Pre-Seed VC + Company Builder",
+    "geography": "Global — 50+ cities including Bangalore, Singapore, London, NYC, Stockholm",
+    "administered_by": "Antler",
+    "stage": ["idea", "prototype"],
+    "domain": "Sector-agnostic — technology-first companies; special focus on AI, climate, health, fintech",
+    "location": "Global — strong India presence via Bangalore cohort",
+    "funding_amount": "$250,000 to $500,000 pre-seed for 10-12% equity (varies by city and programme)",
+    "funding_type": "Equity investment — company builder model; invests before product exists and helps find co-founders",
+    "eligibility": [
+      "Individual founders or early teams — idea stage accepted",
+      "Strong domain expertise, technical skills, or relevant background",
+      "Commitment to build a full-time venture",
+      "Global applications accepted; India programme open to Indian founders"
+    ],
+    "deadline": "Rolling cohorts every 6 months per city — apply at antler.co",
+    "required_documents": [
+      "Online application form only at initial stage",
+      "CV or LinkedIn profile",
+      "Brief description of idea or background — idea not required",
+      "References or work portfolio if available"
+    ],
+    "application_process": "Apply via antler.co; shortlisted candidates join residency and receive investment decision within 10 weeks",
+    "source_url": "https://www.antler.co/residency"
+  },
+  {
+    "name": "Accel India (Accel Partners India)",
+    "category": "Seed and Series A VC",
+    "geography": "India (part of global Accel network)",
+    "administered_by": "Accel",
+    "stage": ["early revenue", "growth"],
+    "domain": "Consumer internet, SaaS, fintech, healthcare, edtech, deep tech, marketplace",
+    "location": "India — portfolio includes Flipkart, Swiggy, Freshworks, BrowserStack",
+    "funding_amount": "$500,000 to $15 million at seed and Series A; up to $100 million+ at growth",
+    "funding_type": "Equity investment — seed, Series A, and growth rounds",
+    "eligibility": [
+      "India-based startup with demonstrated product-market fit or strong early traction",
+      "Scalable technology business model",
+      "Strong founding team — ideally 2+ co-founders with complementary skills",
+      "Clear path to a large addressable market"
+    ],
+    "deadline": "No fixed deadline — rolling investment year-round",
+    "required_documents": [
+      "Pitch deck (10-15 slides: problem, solution, market, traction, team, financials, funding ask)",
+      "Financial model",
+      "Cap table",
+      "Key metrics dashboard (ARR, MoM growth, churn, CAC, LTV)"
+    ],
+    "application_process": "Email pitch deck to Accel India team or apply via accel.com/india; warm introductions from portfolio founders strongly recommended",
+    "source_url": "https://www.accel.com/india"
+  },
+  {
+    "name": "Nexus Venture Partners",
+    "category": "Seed and Early-Stage VC",
+    "geography": "India and USA",
+    "administered_by": "Nexus Venture Partners",
+    "stage": ["prototype", "MVP", "early revenue"],
+    "domain": "Enterprise SaaS, deep tech, consumer internet, cloud infrastructure, fintech, healthtech",
+    "location": "India (Bangalore, Mumbai) and Silicon Valley",
+    "funding_amount": "$500,000 to $10 million at seed and Series A",
+    "funding_type": "Equity investment — seed and early-stage institutional rounds",
+    "eligibility": [
+      "India-based or India-related startup",
+      "Strong technical founding team",
+      "Scalable product with early signals of market fit",
+      "Defensible technology or business model moat"
+    ],
+    "deadline": "No fixed deadline — rolling investment",
+    "required_documents": [
+      "Executive summary or one-pager",
+      "Pitch deck",
+      "Financial model (actuals and projections)",
+      "Cap table",
+      "Product demo or prototype link"
+    ],
+    "application_process": "Submit via nexusvp.com/contact or via warm introduction from Nexus network",
+    "source_url": "https://www.nexusvp.com"
+  },
+  {
+    "name": "Bill and Melinda Gates Foundation Grand Challenges",
+    "category": "Non-Dilutive Grant",
+    "geography": "Global (HQ: Seattle, USA)",
+    "administered_by": "Bill and Melinda Gates Foundation",
+    "stage": ["idea", "prototype", "early revenue"],
+    "domain": "Global health, agricultural development, financial services for the poor, nutrition, sanitation, vaccines, maternal health",
+    "location": "Global — strong focus on low- and middle-income countries including India, Africa, SE Asia",
+    "funding_amount": "$100,000 Phase 1 Exploration grant; up to $1 million+ for Phase 2 if successful",
+    "funding_type": "Non-dilutive grant — no equity taken",
+    "eligibility": [
+      "Any individual, startup, NGO, or research institution globally",
+      "Project must address a defined global health or development challenge",
+      "Innovative approach with evidence of feasibility",
+      "Must openly share learnings — open IP requirement in some programmes"
+    ],
+    "deadline": "Topic-specific rounds with fixed deadlines — check gcgh.grandchallenges.org for current open calls",
+    "required_documents": [
+      "2-page concept note (Phase 1)",
+      "Team and organisation background",
+      "Budget summary",
+      "Full proposal (invited for Phase 2 only)"
+    ],
+    "application_process": "Apply via gcgh.grandchallenges.org; Phase 1 is open to all; Phase 2 is invitation-only after Phase 1 review",
+    "source_url": "https://gcgh.grandchallenges.org"
+  },
+  {
+    "name": "Wellcome Trust Health Innovation Grants",
+    "category": "Non-Dilutive Grant",
+    "geography": "Global (HQ: London, UK)",
+    "administered_by": "Wellcome Trust",
+    "stage": ["prototype", "MVP", "early revenue"],
+    "domain": "Global health, mental health, infectious disease, biomedical research, science communication, climate and health",
+    "location": "Global — India is a priority geography",
+    "funding_amount": "£50,000 to £5 million or more depending on programme",
+    "funding_type": "Non-dilutive grant — no equity or repayment required",
+    "eligibility": [
+      "Researchers, startups, or organisations working on global health innovation",
+      "UK or international applicants accepted",
+      "Must align with one of Wellcome's current funding priorities",
+      "Collaborative proposals welcomed"
+    ],
+    "deadline": "Programme-specific deadlines — check wellcome.org/grant-funding for current opportunities",
+    "required_documents": [
+      "Letter of intent or preliminary application",
+      "Full research or project proposal",
+      "CV and team profiles",
+      "Budget and justification",
+      "Ethics approval where applicable"
+    ],
+    "application_process": "Apply via wellcome.org; most schemes require an Expression of Interest before full submission",
+    "source_url": "https://wellcome.org/grant-funding"
+  },
+  {
+    "name": "European Innovation Council (EIC) Accelerator",
+    "category": "Government Grant + Equity",
+    "geography": "Europe and Global (HQ: Brussels, Belgium)",
+    "administered_by": "European Commission — EIC",
+    "stage": ["prototype", "MVP", "early revenue", "growth"],
+    "domain": "Deep tech, climate, health, digital, manufacturing — high-risk high-impact innovations",
+    "location": "EU member states and associated countries; non-EU applicants eligible for equity-only component",
+    "funding_amount": "Up to €2.5 million grant plus up to €15 million equity investment",
+    "funding_type": "Blended — non-dilutive grant plus optional equity investment by EIC Fund",
+    "eligibility": [
+      "SME or startup from EU member state or EIC-associated country",
+      "Breakthrough technology with potential for global market disruption",
+      "Innovation beyond current state of the art",
+      "Solo or consortium applications accepted"
+    ],
+    "deadline": "3 cut-off dates per year — check eic.ec.europa.eu for current calls",
+    "required_documents": [
+      "Online application form",
+      "Pitch deck (innovation, impact, team)",
+      "Business plan",
+      "Financial plan",
+      "Company registration and financial statements"
+    ],
+    "application_process": "Apply via eic.ec.europa.eu; Step 1 short application; Step 2 full proposal; Step 3 interview with EIC jury",
+    "source_url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+  },
+  {
+    "name": "Google for Startups Accelerator India",
+    "category": "Accelerator (Non-Dilutive)",
+    "geography": "India",
+    "administered_by": "Google",
+    "stage": ["early revenue", "growth"],
+    "domain": "AI and ML, cloud, healthtech, fintech, edtech, agritech — technology-driven startups",
+    "location": "India — primarily Bangalore; programme partly virtual",
+    "funding_amount": "No cash investment — up to $200,000 in Google Cloud credits plus mentorship and tools",
+    "funding_type": "Non-dilutive accelerator — no equity taken; credits, mentorship, and Google product access",
+    "eligibility": [
+      "India-based startup at seed or Series A stage",
+      "Using or planning to use Google Cloud or AI and ML technologies",
+      "Product already live with demonstrable traction"
+    ],
+    "deadline": "Annual cohort — check developers.google.com/community/accelerator for open applications",
+    "required_documents": [
+      "Online application form",
+      "Company website and product demo",
+      "Description of technical stack and Google tech usage",
+      "Key business metrics"
+    ],
+    "application_process": "Apply via developers.google.com/community/accelerator; shortlisted teams interviewed by Google",
+    "source_url": "https://developers.google.com/community/accelerator"
+  },
+  {
+    "name": "Microsoft for Startups Founders Hub",
+    "category": "Non-Dilutive Support (Credits)",
+    "geography": "Global",
+    "administered_by": "Microsoft",
+    "stage": ["idea", "prototype", "MVP", "early revenue", "growth"],
+    "domain": "Technology-first startups — AI, cloud, SaaS, healthcare IT, fintech, productivity",
+    "location": "Global — fully remote and virtual programme",
+    "funding_amount": "Up to $150,000 in Azure cloud credits plus GitHub, Microsoft 365, LinkedIn, and OpenAI credits",
+    "funding_type": "Non-dilutive — no equity taken; technology credits and tools only",
+    "eligibility": [
+      "Any startup globally at any stage",
+      "Must be building on or planning to build on Microsoft or Azure technology",
+      "No revenue requirement — idea-stage startups accepted",
+      "Free to apply at any time"
+    ],
+    "deadline": "No deadline — rolling applications year-round",
+    "required_documents": [
+      "Online registration only",
+      "Brief product description",
+      "Website or LinkedIn company page"
+    ],
+    "application_process": "Sign up at startups.microsoft.com/en-us/founders-hub; instant tier-based access",
+    "source_url": "https://startups.microsoft.com/en-us/founders-hub"
+  },
+  {
+    "name": "Amazon AWS Activate Programme",
+    "category": "Non-Dilutive Support (Credits)",
+    "geography": "Global",
+    "administered_by": "Amazon Web Services (AWS)",
+    "stage": ["idea", "prototype", "MVP", "early revenue", "growth"],
+    "domain": "Technology-first startups across all sectors",
+    "location": "Global — fully online",
+    "funding_amount": "Up to $100,000 in AWS credits (Founders tier: $1,000; Portfolio tier: up to $100,000 via associated VC or incubator)",
+    "funding_type": "Non-dilutive — no equity taken; cloud credits and technical support",
+    "eligibility": [
+      "Any startup globally",
+      "Founders tier: self-apply with no requirements",
+      "Portfolio tier: must be backed by an AWS Activate partner such as a VC, incubator, or accelerator",
+      "No revenue threshold required"
+    ],
+    "deadline": "Rolling — apply at any time",
+    "required_documents": [
+      "AWS account",
+      "Brief company description",
+      "Activating organisation name for Portfolio tier"
+    ],
+    "application_process": "Apply at aws.amazon.com/activate; Founders tier approved immediately; Portfolio tier requires partner confirmation",
+    "source_url": "https://aws.amazon.com/activate"
+  },
+  {
+    "name": "Breakthrough Energy Ventures",
+    "category": "Impact VC",
+    "geography": "Global (HQ: Kirkland, WA, USA)",
+    "administered_by": "Breakthrough Energy Ventures (Bill Gates-backed fund)",
+    "stage": ["prototype", "early revenue", "growth"],
+    "domain": "Climate technology — clean energy, sustainable agriculture, industrial decarbonisation, carbon capture, clean transportation, zero-emission buildings",
+    "location": "Global — US, Europe, India priority",
+    "funding_amount": "$1 million to $100 million or more depending on stage and round",
+    "funding_type": "Equity investment — patient capital with 20-year fund horizon",
+    "eligibility": [
+      "Science-based clean energy or climate startup",
+      "Technology must have potential to reduce global greenhouse gas emissions by at least 500 million tons per year",
+      "Strong founding team with deep technical expertise",
+      "Willing to accept long development timelines typical of deep tech"
+    ],
+    "deadline": "No fixed deadline — rolling investment; proactive outreach or inbound referrals",
+    "required_documents": [
+      "Executive summary with technology description",
+      "Pitch deck",
+      "Technical white paper or patent filings",
+      "Market sizing analysis",
+      "Team CVs"
+    ],
+    "application_process": "Contact via b-t.energy; warm introductions via existing Breakthrough portfolio strongly preferred",
+    "source_url": "https://www.b-t.energy/ventures"
+  },
+  {
+    "name": "Omidyar Network India",
+    "category": "Impact Investor (Equity and Grants)",
+    "geography": "India",
+    "administered_by": "Omidyar Network India",
+    "stage": ["prototype", "early revenue", "growth"],
+    "domain": "Financial inclusion, digital infrastructure, education, governance and citizen engagement, news and media",
+    "location": "India",
+    "funding_amount": "$250,000 to $5 million (varies by programme and stage)",
+    "funding_type": "Equity investment or non-dilutive grant depending on entity type (for-profit vs NGO)",
+    "eligibility": [
+      "India-based organisation — for-profit startup, social enterprise, or NGO",
+      "Business or programme that creates measurable social impact",
+      "Scalable model with demonstrable beneficiary reach",
+      "Openness to impact measurement and reporting"
+    ],
+    "deadline": "Rolling — proactive pitching preferred; check omidyar.com for current focus areas",
+    "required_documents": [
+      "Pitch deck or grant proposal",
+      "Impact thesis and theory of change",
+      "Financial model or budget",
+      "Team profiles",
+      "Evidence of early traction or pilot results"
+    ],
+    "application_process": "Submit via omidyar.com or contact Omidyar India team through their website",
+    "source_url": "https://www.omidyar.com/our-work"
+  },
+  {
+    "name": "Villgro Innovations Foundation",
+    "category": "Impact Incubator and Grant",
+    "geography": "India (Chennai, with pan-India reach)",
+    "administered_by": "Villgro Innovations Foundation",
+    "stage": ["idea", "prototype", "MVP"],
+    "domain": "Healthcare, agritech, clean energy, livelihood, education — serving low-income communities in India",
+    "location": "India",
+    "funding_amount": "₹15 lakh to ₹1 crore across grant and equity (varies by programme)",
+    "funding_type": "Grant for early stage plus equity investment for growth stage; incubation support included",
+    "eligibility": [
+      "Social enterprise or impact-first startup serving bottom-of-pyramid population",
+      "India-based or India-focused team",
+      "Technology or innovation-led solution",
+      "At least idea-stage with prototype plan"
+    ],
+    "deadline": "Cohort-based — check villgro.org for current programme openings",
+    "required_documents": [
+      "Concept note or pitch deck",
+      "Theory of change",
+      "Team profiles",
+      "Prototype or product description"
+    ],
+    "application_process": "Apply via villgro.org/apply during active programme windows",
+    "source_url": "https://villgro.org"
+  },
+  {
+    "name": "NASSCOM 10000 Startups Programme",
+    "category": "Accelerator and Non-Dilutive Support",
+    "geography": "India",
+    "administered_by": "NASSCOM Foundation",
+    "stage": ["prototype", "MVP", "early revenue"],
+    "domain": "Technology startups — SaaS, AI and ML, IoT, cybersecurity, cloud, healthtech, edtech, fintech",
+    "location": "India — multiple city hubs including Bangalore, Hyderabad, Delhi, Mumbai",
+    "funding_amount": "Non-cash support: co-working space, cloud credits, mentorship, investor connects worth up to ₹20 lakh equivalent",
+    "funding_type": "Non-dilutive accelerator support — no equity taken by NASSCOM",
+    "eligibility": [
+      "India-registered technology startup",
+      "Product or service with some validation — prototype or early customers",
+      "Open to B2B and B2C models",
+      "Cannot be a services-only company"
+    ],
+    "deadline": "Rolling cohorts — apply at 10000startups.com",
+    "required_documents": [
+      "Online application form",
+      "Product demo or prototype",
+      "Team details",
+      "Revenue and traction summary"
+    ],
+    "application_process": "Apply at 10000startups.com; shortlisted startups join the programme at a city hub",
+    "source_url": "https://10000startups.com"
+  },
+  {
+    "name": "Qualcomm Ventures",
+    "category": "Corporate VC",
+    "geography": "Global (strong India and Asia presence)",
+    "administered_by": "Qualcomm Incorporated",
+    "stage": ["prototype", "early revenue", "growth"],
+    "domain": "Semiconductor, AI and ML, 5G, IoT, automotive tech, robotics, AR and VR, mobile technology",
+    "location": "Global — India programme very active in Bangalore",
+    "funding_amount": "$500,000 to $5 million or more at seed and Series A",
+    "funding_type": "Equity investment — strategic corporate venture aligned with Qualcomm technology roadmap",
+    "eligibility": [
+      "Deep tech or hardware-enabled startup",
+      "Technology synergy with Qualcomm chipsets, 5G, AI, or IoT platforms",
+      "Strong technical founding team",
+      "India and global startups accepted"
+    ],
+    "deadline": "Rolling — proactive pitching year-round",
+    "required_documents": [
+      "Technical pitch deck",
+      "Product or technology demo",
+      "Financial model",
+      "Patent or IP summary if available",
+      "Team CVs"
+    ],
+    "application_process": "Submit via qualcommventures.com/contact or via warm introduction from Qualcomm portfolio or employees",
+    "source_url": "https://www.qualcommventures.com"
+  },
+  {
+    "name": "Salesforce Ventures — Impact Fund",
+    "category": "Corporate VC and Impact",
+    "geography": "Global (HQ: San Francisco, USA)",
+    "administered_by": "Salesforce Ventures",
+    "stage": ["early revenue", "growth"],
+    "domain": "Enterprise SaaS, CRM and cloud technology ecosystem companies, equality, sustainability tech",
+    "location": "Global — US, Europe, India, APAC",
+    "funding_amount": "$250,000 to $10 million depending on stage",
+    "funding_type": "Equity investment — strategic corporate venture; often co-invests with financial VCs",
+    "eligibility": [
+      "Startup building on or complementary to the Salesforce platform or ecosystem",
+      "Enterprise SaaS or cloud-based B2B technology company",
+      "Demonstrated early customer traction",
+      "Strong alignment with Salesforce equality or sustainability goals for Impact Fund"
+    ],
+    "deadline": "Rolling — no fixed deadline; proactive pitching",
+    "required_documents": [
+      "Pitch deck",
+      "Salesforce platform integration description",
+      "Financial model and current ARR and metrics",
+      "Cap table"
+    ],
+    "application_process": "Contact via salesforce.com/ventures or via warm introduction from Salesforce employee or portfolio company",
+    "source_url": "https://www.salesforce.com/ventures"
+  }
+]

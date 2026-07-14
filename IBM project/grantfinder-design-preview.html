@@ -1,0 +1,190 @@
+
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"Segoe UI",system-ui,sans-serif;background:#f7f8fa;color:#1f2328;font-size:14px;line-height:1.6;padding:32px 20px}
+  .wrap{max-width:760px;margin:0 auto}
+  h1{font-size:22px;font-weight:800;margin-bottom:4px}
+  .lead{color:#57606a;margin-bottom:32px;font-size:14px}
+  .section{margin-bottom:36px}
+  h2{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#3b82d4;margin-bottom:14px;padding-bottom:6px;border-bottom:1.5px solid #e5e7eb}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .card{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:16px 18px}
+  .card-title{font-size:13px;font-weight:700;color:#1f2328;margin-bottom:5px;display:flex;align-items:center;gap:7px}
+  .card-body{font-size:12.5px;color:#57606a;line-height:1.65}
+  .badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+  .badge-blue{background:#dbeafe;color:#1d4ed8}
+  .badge-green{background:#dcfce7;color:#16a34a}
+  .badge-purple{background:#ede9fe;color:#7c3aed}
+  .badge-amber{background:#fef3c7;color:#b45309}
+  .badge-red{background:#fee2e2;color:#dc2626}
+  .badge-cyan{background:#cffafe;color:#0e7490}
+  .compare{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden}
+  .compare-col{padding:16px 18px}
+  .compare-col:first-child{border-right:1px solid #e5e7eb;background:#f7f8fa}
+  .compare-col h3{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#57606a;margin-bottom:10px}
+  .compare-item{font-size:12.5px;margin-bottom:6px;display:flex;align-items:flex-start;gap:6px}
+  .x{color:#dc2626;font-size:13px;flex-shrink:0;margin-top:1px}
+  .chk{color:#16a34a;font-size:13px;flex-shrink:0;margin-top:1px}
+  .screen{border-radius:12px;overflow:hidden;border:1px solid #e5e7eb;background:#080b14;padding:20px 24px;position:relative}
+  .s-nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px}
+  .s-brand{display:flex;align-items:center;gap:8px}
+  .s-icon{width:28px;height:28px;border-radius:7px;background:linear-gradient(135deg,#1a4fd6,#3b82f6);display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff;font-weight:800}
+  .s-name{font-size:13px;font-weight:800;color:#fff}
+  .s-name span{color:#60a5fa}
+  .s-links{display:flex;gap:6px}
+  .s-link{font-size:11px;color:#8896b3;padding:4px 9px;border-radius:5px;background:transparent}
+  .s-btn{font-size:11px;color:#fff;padding:5px 12px;border-radius:7px;background:linear-gradient(135deg,#1a4fd6,#3b82f6);font-weight:700}
+  .s-badge{display:inline-flex;align-items:center;gap:5px;background:rgba(37,99,235,.18);border:1px solid rgba(59,130,246,.3);border-radius:100px;padding:4px 12px;font-size:10px;font-weight:700;color:#93c5fd;letter-spacing:.05em;text-transform:uppercase;margin-bottom:16px}
+  .s-dot{width:5px;height:5px;background:#22d3ee;border-radius:50%}
+  .s-h{font-size:22px;font-weight:900;color:#fff;line-height:1.1;margin-bottom:10px;letter-spacing:-.04em}
+  .s-h .g{background:linear-gradient(135deg,#60a5fa,#a78bfa,#34d399);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+  .s-sub{font-size:12px;color:#8896b3;margin-bottom:16px;line-height:1.6}
+  .s-stats{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+  .s-stat{display:flex;align-items:center;gap:6px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:100px;padding:5px 12px;font-size:10px;font-weight:700;color:#fff}
+  .s-actions{display:flex;gap:8px}
+  .s-cta{font-size:11px;font-weight:800;padding:8px 16px;border-radius:9px;background:linear-gradient(135deg,#1a4fd6,#3b82f6);color:#fff}
+  .s-ghost{font-size:11px;font-weight:600;padding:8px 14px;border-radius:9px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);color:#c4cde0}
+  .feat-row{display:flex;gap:8px;margin-top:18px;flex-wrap:wrap}
+  .f-chip{flex:1;min-width:100px;background:#0f1628;border:1px solid rgba(99,148,255,.14);border-radius:9px;padding:10px 11px}
+  .f-chip-tag{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
+  .f-chip-title{font-size:11px;font-weight:700;color:#e2e8f4;margin-bottom:3px}
+  .f-chip-desc{font-size:10px;color:#6b7a99;line-height:1.5}
+  footer{text-align:center;margin-top:48px;padding-top:20px;border-top:1px solid #e5e7eb;font-size:11.5px;color:#8b949e}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>GrantFinder — Design Upgrades</h1>
+  <p class="lead">What's new and why it's better than the reference layout.</p>
+
+  
+  <div class="section">
+    <h2>Before vs After</h2>
+    <div class="compare">
+      <div class="compare-col">
+        <h3>Previous (reference-inspired)</h3>
+        <div class="compare-item"><span class="x">✕</span> Fixed 100vh split — no scrolling possible</div>
+        <div class="compare-item"><span class="x">✕</span> No navbar — no navigation or branding bar</div>
+        <div class="compare-item"><span class="x">✕</span> Left/right split wasted half the screen on an image</div>
+        <div class="compare-item"><span class="x">✕</span> Modal slid from center — no entry animation</div>
+        <div class="compare-item"><span class="x">✕</span> Step bar connectors were static (no done state)</div>
+        <div class="compare-item"><span class="x">✕</span> No "How It Works" section — user guessed the flow</div>
+        <div class="compare-item"><span class="x">✕</span> Purple accent colour unrelated to IBM / gov branding</div>
+        <div class="compare-item"><span class="x">✕</span> Form fields stacked in one long column</div>
+      </div>
+      <div class="compare-col" style="background:#fff">
+        <h3>Now (GrantFinder original)</h3>
+        <div class="compare-item"><span class="chk">✓</span> Full scrollable page — hero + features + footer</div>
+        <div class="compare-item"><span class="chk">✓</span> Glassmorphism sticky navbar with links + CTA button</div>
+        <div class="compare-item"><span class="chk">✓</span> Full-width centred hero with animated gradient orbs + dot grid</div>
+        <div class="compare-item"><span class="chk">✓</span> Modal slides up from bottom with spring animation</div>
+        <div class="compare-item"><span class="chk">✓</span> Step bar connectors turn green when done</div>
+        <div class="compare-item"><span class="chk">✓</span> 6-card "How It Works" feature strip, one per AI agent</div>
+        <div class="compare-item"><span class="chk">✓</span> Blue accent (#3b82f6) matches IBM / government aesthetic</div>
+        <div class="compare-item"><span class="chk">✓</span> Guided form uses 2-column grid — compact and scannable</div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="section">
+    <h2>Hero Section Preview</h2>
+    <div class="screen">
+      
+      <div class="s-nav">
+        <div class="s-brand">
+          <div class="s-icon">G</div>
+          <div class="s-name">Grant<span>Finder</span></div>
+        </div>
+        <div class="s-links">
+          <div class="s-link">How It Works</div>
+          <div class="s-link">Schemes</div>
+          <div class="s-link">About</div>
+        </div>
+        <div class="s-btn">⚡ Get Started Free</div>
+      </div>
+      
+      <div style="text-align:center;padding:0 20px">
+        <div class="s-badge"><span class="s-dot"></span>IBM watsonx.ai · 6 AI Agents · Active</div>
+        <div class="s-h">Discover Government Grants<br /><span class="g">Built for Your Startup.</span></div>
+        <div class="s-sub">Describe your startup once. Our multi-agent AI pipeline profiles it, matches eligible schemes, and drafts a submission-ready proposal — all in seconds.</div>
+        <div class="s-stats" style="justify-content:center">
+          <div class="s-stat">🤖 6 AI Agents</div>
+          <div class="s-stat">🏆 50+ Grant Schemes</div>
+          <div class="s-stat">⚡ &lt;60s Proposal Draft</div>
+          <div class="s-stat">🇮🇳 India Focused</div>
+        </div>
+        <div class="s-actions" style="justify-content:center">
+          <div class="s-cta">🔍 Find My Grants</div>
+          <div class="s-ghost">☑ Use Guided Form</div>
+        </div>
+      </div>
+      
+      <div class="feat-row">
+        <div class="f-chip"><div class="f-chip-tag" style="color:#60a5fa">Step 1</div><div class="f-chip-title">Profiling</div><div class="f-chip-desc">Extracts sector, stage &amp; location</div></div>
+        <div class="f-chip"><div class="f-chip-tag" style="color:#34d399">Step 2–3</div><div class="f-chip-title">Eligibility</div><div class="f-chip-desc">50+ scheme criteria check</div></div>
+        <div class="f-chip"><div class="f-chip-tag" style="color:#a78bfa">Step 3</div><div class="f-chip-title">Discovery</div><div class="f-chip-desc">Deadlines &amp; funding amounts</div></div>
+        <div class="f-chip"><div class="f-chip-tag" style="color:#fbbf24">Step 4</div><div class="f-chip-title">Proposal</div><div class="f-chip-desc">Auto-drafted application</div></div>
+        <div class="f-chip"><div class="f-chip-tag" style="color:#f87171">Step 5</div><div class="f-chip-title">Compliance</div><div class="f-chip-desc">Document checklist</div></div>
+        <div class="f-chip"><div class="f-chip-tag" style="color:#22d3ee">Step 6</div><div class="f-chip-title">Review</div><div class="f-chip-desc">AI score out of 100</div></div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="section">
+    <h2>All Design Improvements</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-title"><span class="badge badge-blue">Navbar</span> Glassmorphism sticky bar</div>
+        <div class="card-body">Frosted-glass effect with blur, nav links, brand icon and gradient CTA. Hides links on mobile.</div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="badge badge-purple">Hero</span> Animated orb background</div>
+        <div class="card-body">3 slowly drifting radial-gradient orbs + subtle dot-grid overlay create depth without an image.</div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="badge badge-green">Stats</span> Pill-shaped stat row</div>
+        <div class="card-body">4 rounded pill stats (6 agents, 50+ schemes, &lt;60s, India) instead of block boxes.</div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="badge badge-amber">Features</span> 6-card "How It Works"</div>
+        <div class="card-body">Each of the 6 AI agents gets its own colour-coded card with step badge, icon, and description.</div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="badge badge-red">Modal</span> Bottom-sheet slide-up</div>
+        <div class="card-body">Modal slides up from the bottom edge with a spring cubic-bezier animation. Sticky header inside.</div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="badge badge-cyan">Tabs</span> Underline tab navigation</div>
+        <div class="card-body">Clean underline tabs replace the boxy button style — more modern and less cluttered in the modal.</div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="badge badge-blue">Steps</span> Animated progress connectors</div>
+        <div class="card-body">Step bar connectors turn green (#10b981) when a step is done, giving real-time visual feedback.</div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="badge badge-purple">Cards</span> Hover lift effects</div>
+        <div class="card-body">Feature cards, discovery cards and scheme rows all lift on hover with border-color transition.</div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="badge badge-green">Scrollbar</span> Custom thin scrollbar</div>
+        <div class="card-body">Slim 6px scrollbar styled to match the dark theme — no jarring system-default grey bar.</div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="badge badge-amber">Score</span> Large score display</div>
+        <div class="card-body">Review score shown as a 36px bold number — immediately readable, no ring SVG complexity.</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p style="color:#8b949e">Made with IBM Bob</p>
+  </footer>
+</div>
+</body>
+</html>

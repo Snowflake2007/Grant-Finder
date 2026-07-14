@@ -1,0 +1,253 @@
+
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Results Preview</title>
+
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',-apple-system,system-ui,sans-serif;background:#080b14;color:#d4daf0;font-size:14px;padding:32px 24px}
+  h2{font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#3b82f6;padding-bottom:10px;border-bottom:1px solid rgba(99,148,255,.14);margin-bottom:16px;display:flex;align-items:center;gap:9px}
+  h2::before{content:'';width:3px;height:14px;background:#3b82f6;border-radius:2px;display:inline-block;flex-shrink:0}
+  section{max-width:780px;margin:0 auto 48px}
+
+  /* ── Eligibility ── */
+  .scheme-list{display:flex;flex-direction:column;gap:8px}
+  .elig-group-hd{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:4px 0 6px;margin-top:8px}
+  .elig-group-hd:first-child{margin-top:0}
+  .s-row{background:#0a0f1e;border:1px solid rgba(99,148,255,.15);border-radius:12px;overflow:hidden}
+  .s-row.eligible{border-left:3px solid #10b981}
+  .s-row.not-eligible{border-left:3px solid #ef4444;background:#0c0910}
+  .s-row-inner{display:flex;align-items:flex-start;gap:12px;padding:14px 16px}
+  .s-badge-col{display:flex;flex-direction:column;align-items:flex-start;gap:5px;flex-shrink:0;padding-top:1px;min-width:100px}
+  .bp{display:inline-flex;align-items:center;gap:4px;border-radius:100px;padding:3px 10px;font-size:10.5px;font-weight:800;white-space:nowrap}
+  .bp.g{background:rgba(16,185,129,.16);color:#34d399;border:1px solid rgba(16,185,129,.28)}
+  .bp.r{background:rgba(239,68,68,.14);color:#f87171;border:1px solid rgba(239,68,68,.28)}
+  .bp-cat{display:inline-flex;border-radius:100px;padding:2px 9px;font-size:9.5px;font-weight:700;letter-spacing:.03em;background:rgba(99,148,255,.1);color:#6b7a99;border:1px solid rgba(99,148,255,.16);white-space:nowrap}
+  .s-content{flex:1;min-width:0}
+  .s-name{font-weight:800;font-size:14px;color:#e2e8f4;line-height:1.35;margin-bottom:5px;word-break:break-word}
+  .s-reason{font-size:12.5px;color:#7a8aaa;line-height:1.65}
+
+  /* ── Discovery ── */
+  .disc-grid{display:flex;flex-direction:column;gap:14px}
+  .d-card{background:#0a0f1e;border:1px solid rgba(99,148,255,.15);border-left:3px solid #3b82f6;border-radius:12px;overflow:hidden}
+  .d-card-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:16px 18px 14px;border-bottom:1px solid rgba(99,148,255,.1)}
+  .d-name{font-size:14.5px;font-weight:800;color:#e2e8f4;line-height:1.3;flex:1;min-width:0}
+  .d-cat-pill{flex-shrink:0;border-radius:100px;padding:3px 10px;font-size:9.5px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
+  .d-body{padding:14px 18px}
+  .d-table{width:100%;border-collapse:collapse}
+  .d-table tr{border-bottom:1px solid rgba(99,148,255,.07)}
+  .d-table tr:last-child{border-bottom:none}
+  .d-table td{padding:7px 0;vertical-align:top;font-size:13px;line-height:1.55}
+  .d-table td.dk{width:130px;font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:#4a5a7a;padding-right:14px;white-space:nowrap;padding-top:9px}
+  .d-table td.dv{color:#c4cde0;font-weight:500;word-break:break-word}
+  .d-docs-wrap{padding:0 18px 14px}
+  .d-docs-lbl{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.07em;color:#4a5a7a;margin-bottom:6px}
+  .d-doc-tag{display:inline-flex;align-items:center;gap:4px;background:#0d1222;border:1px solid rgba(99,148,255,.14);border-radius:5px;padding:3px 9px;font-size:11.5px;color:#7a8aaa;margin:3px 4px 3px 0}
+  .d-footer{padding:10px 18px;border-top:1px solid rgba(99,148,255,.08);background:rgba(99,148,255,.03)}
+  .d-apply-link{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:#60a5fa;text-decoration:none}
+</style>
+</head>
+<body>
+
+<section>
+  <h2>Eligibility Results</h2>
+  <div class="scheme-list">
+
+    <div class="elig-group-hd" style="color:#34d399">✓ 4 Eligible Matches</div>
+
+    <div class="s-row eligible">
+      <div class="s-row-inner">
+        <div class="s-badge-col">
+          <span class="bp g">✓ Eligible</span>
+          <span class="bp-cat">Government Grant</span>
+        </div>
+        <div class="s-content">
+          <div class="s-name">Startup India Seed Fund Scheme (SISFS)</div>
+          <div class="s-reason">DPIIT-recognised startup at MVP stage in India — meets all core criteria for this scheme.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="s-row eligible">
+      <div class="s-row-inner">
+        <div class="s-badge-col">
+          <span class="bp g">✓ Eligible</span>
+          <span class="bp-cat">Government Grant</span>
+        </div>
+        <div class="s-content">
+          <div class="s-name">BIRAC Biotechnology Ignition Grant (BIG)</div>
+          <div class="s-reason">Healthcare AI startup aligns with BIRAC's biotech and life sciences focus.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="s-row eligible">
+      <div class="s-row-inner">
+        <div class="s-badge-col">
+          <span class="bp g">✓ Eligible</span>
+          <span class="bp-cat">Non-Dilutive Support</span>
+        </div>
+        <div class="s-content">
+          <div class="s-name">Microsoft for Startups Founders Hub</div>
+          <div class="s-reason">Technology-first product qualifies for Azure credits and developer tools.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="s-row eligible">
+      <div class="s-row-inner">
+        <div class="s-badge-col">
+          <span class="bp g">✓ Eligible</span>
+          <span class="bp-cat">Non-Dilutive Support</span>
+        </div>
+        <div class="s-content">
+          <div class="s-name">Amazon AWS Activate Programme</div>
+          <div class="s-reason">Tech startup at MVP stage qualifies for AWS cloud credits with no equity requirement.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="elig-group-hd" style="color:#f87171;margin-top:16px">✕ 3 Not Eligible</div>
+
+    <div class="s-row not-eligible">
+      <div class="s-row-inner">
+        <div class="s-badge-col">
+          <span class="bp r">✕ Not Eligible</span>
+          <span class="bp-cat">VC + Accelerator</span>
+        </div>
+        <div class="s-content">
+          <div class="s-name">Y Combinator (YC) Batch Programme</div>
+          <div class="s-reason">Preference for non-dilutive funding doesn't match YC's equity model.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="s-row not-eligible">
+      <div class="s-row-inner">
+        <div class="s-badge-col">
+          <span class="bp r">✕ Not Eligible</span>
+          <span class="bp-cat">Seed &amp; Series A VC</span>
+        </div>
+        <div class="s-content">
+          <div class="s-name">Accel India (Accel Partners India)</div>
+          <div class="s-reason">Accel focuses on equity investments; startup prefers non-dilutive funding.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="s-row not-eligible">
+      <div class="s-row-inner">
+        <div class="s-badge-col">
+          <span class="bp r">✕ Not Eligible</span>
+          <span class="bp-cat">Pre-Seed VC</span>
+        </div>
+        <div class="s-content">
+          <div class="s-name">Antler Early-Stage VC</div>
+          <div class="s-reason">Equity-only model does not match the startup's non-dilutive preference.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Matched Funding Details</h2>
+  <div class="disc-grid">
+
+    
+    <div class="d-card" style="border-left-color:#3b82f6">
+      <div class="d-card-head">
+        <div class="d-name">Startup India Seed Fund Scheme (SISFS)</div>
+        <span class="d-cat-pill" style="background:#3b82f622;color:#3b82f6;border:1px solid #3b82f644">Government Grant</span>
+      </div>
+      <div class="d-body">
+        <table class="d-table"><tbody>
+          <tr><td class="dk">Administered by</td><td class="dv">DPIIT, Ministry of Commerce and Industry</td></tr>
+          <tr><td class="dk">Geography</td><td class="dv">India</td></tr>
+          <tr><td class="dk">Funding Amount</td><td class="dv">Up to ₹20 lakh grant; up to ₹50 lakh debt/convertible</td></tr>
+          <tr><td class="dk">Funding Type</td><td class="dv">Government Grant — non-dilutive, via incubators</td></tr>
+          <tr><td class="dk">Deadline</td><td class="dv">Rolling — ongoing via incubator partners</td></tr>
+          <tr><td class="dk">How to Apply</td><td class="dv">Apply via seedfund.startupindia.gov.in to up to 3 preferred incubators</td></tr>
+        </tbody></table>
+      </div>
+      <div class="d-docs-wrap">
+        <div class="d-docs-lbl">Required Documents</div>
+        <div>
+          <span class="d-doc-tag">📄 DPIIT recognition certificate</span>
+          <span class="d-doc-tag">📄 Pitch deck</span>
+          <span class="d-doc-tag">📄 Financial projections</span>
+          <span class="d-doc-tag">📄 Founder profile &amp; incorporation docs</span>
+        </div>
+      </div>
+      <div class="d-footer">
+        <a class="d-apply-link" href="https://seedfund.startupindia.gov.in/" target="_blank">
+          <i class="bi bi-box-arrow-up-right"></i> Visit official site
+        </a>
+      </div>
+    </div>
+
+    
+    <div class="d-card" style="border-left-color:#34d399">
+      <div class="d-card-head">
+        <div class="d-name">BIRAC Biotechnology Ignition Grant (BIG)</div>
+        <span class="d-cat-pill" style="background:#34d39922;color:#34d399;border:1px solid #34d39944">Government Grant</span>
+      </div>
+      <div class="d-body">
+        <table class="d-table"><tbody>
+          <tr><td class="dk">Administered by</td><td class="dv">Biotechnology Industry Research Assistance Council (BIRAC), DBT</td></tr>
+          <tr><td class="dk">Geography</td><td class="dv">India</td></tr>
+          <tr><td class="dk">Funding Amount</td><td class="dv">Up to ₹50 lakh</td></tr>
+          <tr><td class="dk">Funding Type</td><td class="dv">Government Grant — non-dilutive, milestone-based</td></tr>
+          <tr><td class="dk">Deadline</td><td class="dv">Rolling rounds — check birac.nic.in for current call</td></tr>
+          <tr><td class="dk">How to Apply</td><td class="dv">Submit application via birac.nic.in during open call windows</td></tr>
+        </tbody></table>
+      </div>
+      <div class="d-docs-wrap">
+        <div class="d-docs-lbl">Required Documents</div>
+        <div>
+          <span class="d-doc-tag">📄 Technical proposal (10-15 pages)</span>
+          <span class="d-doc-tag">📄 Budget breakdown</span>
+          <span class="d-doc-tag">📄 CV of key team members</span>
+          <span class="d-doc-tag">📄 Incorporation documents</span>
+        </div>
+      </div>
+      <div class="d-footer">
+        <a class="d-apply-link" href="https://birac.nic.in/" target="_blank">
+          <i class="bi bi-box-arrow-up-right"></i> Visit official site
+        </a>
+      </div>
+    </div>
+
+    
+    <div class="d-card" style="border-left-color:#fbbf24">
+      <div class="d-card-head">
+        <div class="d-name">Microsoft for Startups Founders Hub</div>
+        <span class="d-cat-pill" style="background:#fbbf2422;color:#fbbf24;border:1px solid #fbbf2444">Non-Dilutive Support</span>
+      </div>
+      <div class="d-body">
+        <table class="d-table"><tbody>
+          <tr><td class="dk">Administered by</td><td class="dv">Microsoft</td></tr>
+          <tr><td class="dk">Geography</td><td class="dv">Global</td></tr>
+          <tr><td class="dk">Funding Amount</td><td class="dv">Up to $150,000 in Azure credits + tools</td></tr>
+          <tr><td class="dk">Funding Type</td><td class="dv">Non-dilutive cloud credits and developer resources</td></tr>
+          <tr><td class="dk">Deadline</td><td class="dv">Rolling — apply anytime</td></tr>
+          <tr><td class="dk">How to Apply</td><td class="dv">Apply at foundershub.startups.microsoft.com with product description</td></tr>
+        </tbody></table>
+      </div>
+      <div class="d-footer">
+        <a class="d-apply-link" href="https://foundershub.startups.microsoft.com/" target="_blank">
+          <i class="bi bi-box-arrow-up-right"></i> Visit official site
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer style="text-align:center;font-size:11px;color:#1e2d55;border-top:1px solid rgba(99,148,255,.08);padding-top:20px;margin-top:40px;max-width:780px;margin-left:auto;margin-right:auto">Made with IBM Bob</footer>
+
+</body>
+</html>
